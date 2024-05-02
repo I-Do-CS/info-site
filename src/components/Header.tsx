@@ -1,7 +1,7 @@
 export default function Header() {
   return (
     <header className="absolute inset-x-0 bg-zinc-900 px-6 py-8 text-white">
-      <nav className="container mx-auto flex items-center justify-between">
+      <nav className="container mx-auto flex flex-col items-center gap-4 md:flex-row md:items-center md:justify-between">
         <div className="flex items-center gap-2">
           <svg
             xmlns="http://www.w3.org/2000/svg"
