@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  min-height: 100vh;
+}
+
+main {
+  background-image: url(./assets/react-icon-large.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: 65%;
+  background-size: 180px 340px;
+}
